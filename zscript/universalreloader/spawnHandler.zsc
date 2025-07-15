@@ -482,18 +482,18 @@ class URLSpawnHandler : EventHandler {
         }
 
         // .50 AE
-        if (url_50ae_enabled) {
-            addRecipe('HD50AEAmmo',            url_50ae_enabled,
-                                               projectileMats[url_50ae_projMat], url_50ae_projAmt,   url_50ae_projAmt * (url_disassemble_ratio * 0.01),
-                                               casingMats[url_50ae_casingMat],   url_50ae_casingAmt, url_50ae_casingAmt * (url_disassemble_ratio * 0.01),
-                                               powderMats[url_50ae_powderMat],   url_50ae_powderAmt, url_50ae_powderAmt * (url_disassemble_ratio * 0.01),
-                                               url_50ae_speed);
-            addRecipe('HDSpent50AE',           url_50ae_enabled,
-                                               null,                             0,                  0.00,
-                                               casingMats[url_50ae_casingMat],   url_50ae_casingAmt, url_50ae_casingAmt * (url_disassemble_ratio * 0.01),
-                                               null,                             0,                  0.00,
-                                               url_50ae_speed);
-        }
+        // if (url_50ae_enabled) {
+        //     addRecipe('HD50AEAmmo',            url_50ae_enabled,
+        //                                        projectileMats[url_50ae_projMat], url_50ae_projAmt,   url_50ae_projAmt * (url_disassemble_ratio * 0.01),
+        //                                        casingMats[url_50ae_casingMat],   url_50ae_casingAmt, url_50ae_casingAmt * (url_disassemble_ratio * 0.01),
+        //                                        powderMats[url_50ae_powderMat],   url_50ae_powderAmt, url_50ae_powderAmt * (url_disassemble_ratio * 0.01),
+        //                                        url_50ae_speed);
+        //     addRecipe('HDSpent50AE',           url_50ae_enabled,
+        //                                        null,                             0,                  0.00,
+        //                                        casingMats[url_50ae_casingMat],   url_50ae_casingAmt, url_50ae_casingAmt * (url_disassemble_ratio * 0.01),
+        //                                        null,                             0,                  0.00,
+        //                                        url_50ae_speed);
+        // }
         
         // .50 Action-Mega
         if (url_50am_enabled) {
